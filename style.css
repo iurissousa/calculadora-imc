@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background: linear-gradient(to top left, #33ccff 0%, #ff66ff 100%);
+}
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top left, #66ff66 0%, #ff66ff 100%);
+  width: 400px;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+
+.title {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  font-size: 24px;
+  border-bottom: solid 5px rgb(121, 179, 202);
+  margin-bottom: 20px;
+}
+
+.input {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.input input {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+.input label {
+  font-size: 18px;
+}
+
+
+button {
+  width: 300px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  background: rgb(121, 179, 202);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: grey;
+}
+
+#limpar {
+  width: 300px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  background: rgb(121, 179, 202);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#limpar:hover {
+  background: grey;
+}
+.result {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  font-weight: bold;
+  background: rgb(64, 115, 136);
+  color: black;
+  padding: 20px;
+  box-sizing: border-box;
+  user-select: none;
+}
